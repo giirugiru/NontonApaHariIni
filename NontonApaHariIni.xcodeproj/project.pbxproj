@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4439088EC617F1D1D4C92EC7 /* Pods_NontonApaHariIni.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031487825BF1EEB531DCB978 /* Pods_NontonApaHariIni.framework */; };
+		BA866D412693218700B484F1 /* NowPlayingMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA866D402693218700B484F1 /* NowPlayingMovieModel.swift */; };
+		BAE27BAE2691DB310033990E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE27BAD2691DB310033990E /* AppDelegate.swift */; };
+		BAE27BB02691DB310033990E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE27BAF2691DB310033990E /* SceneDelegate.swift */; };
+		BAE27BB22691DB310033990E /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE27BB12691DB310033990E /* DashboardViewController.swift */; };
+		BAE27BB52691DB310033990E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE27BB32691DB310033990E /* Main.storyboard */; };
+		BAE27BB72691DB370033990E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE27BB62691DB370033990E /* Assets.xcassets */; };
+		BAE27BBA2691DB370033990E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE27BB82691DB370033990E /* LaunchScreen.storyboard */; };
+		BAE27BC62691DBD10033990E /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE27BC42691DBD10033990E /* MovieDetailViewController.swift */; };
+		BAE27BC72691DBD10033990E /* MovieDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE27BC52691DBD10033990E /* MovieDetailViewController.xib */; };
+		BAE27BCD2691DF210033990E /* PopularMovieListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE27BCC2691DF210033990E /* PopularMovieListModel.swift */; };
+		BAE27BCF2691DF360033990E /* UpcomingMovieListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE27BCE2691DF360033990E /* UpcomingMovieListModel.swift */; };
+		BAE27BD12691DF400033990E /* MovieDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE27BD02691DF400033990E /* MovieDetailModel.swift */; };
+		BAE27BD52691F08E0033990E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE27BD42691F08E0033990E /* Constants.swift */; };
+		BAE27C0926920A390033990E /* MovieThumbnailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE27C0826920A390033990E /* MovieThumbnailViewModel.swift */; };
+		BAE27C1026920AB20033990E /* DashboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE27C0A26920AB20033990E /* DashboardTableViewCell.xib */; };
+		BAE27C1526920AB20033990E /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE27C0F26920AB20033990E /* DashboardTableViewCell.swift */; };
+		BAE27C1826920AD40033990E /* MovieThumbnailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE27C1626920AD40033990E /* MovieThumbnailCollectionViewCell.swift */; };
+		BAE27C1926920AD40033990E /* MovieThumbnailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAE27C1726920AD40033990E /* MovieThumbnailCollectionViewCell.xib */; };
+		BAE27C1B26920CF60033990E /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE27C1A26920CF60033990E /* Networking.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		031487825BF1EEB531DCB978 /* Pods_NontonApaHariIni.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NontonApaHariIni.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67175F6B9173F423D1C2D540 /* Pods-NontonApaHariIni.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NontonApaHariIni.release.xcconfig"; path = "Target Support Files/Pods-NontonApaHariIni/Pods-NontonApaHariIni.release.xcconfig"; sourceTree = "<group>"; };
+		89295C50A3823E4AC374886E /* Pods-NontonApaHariIni.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NontonApaHariIni.debug.xcconfig"; path = "Target Support Files/Pods-NontonApaHariIni/Pods-NontonApaHariIni.debug.xcconfig"; sourceTree = "<group>"; };
+		BA866D402693218700B484F1 /* NowPlayingMovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingMovieModel.swift; sourceTree = "<group>"; };
+		BAE27BAA2691DB310033990E /* NontonApaHariIni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NontonApaHariIni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE27BAD2691DB310033990E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAE27BAF2691DB310033990E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BAE27BB12691DB310033990E /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		BAE27BB42691DB310033990E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAE27BB62691DB370033990E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAE27BB92691DB370033990E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAE27BBB2691DB370033990E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE27BC42691DBD10033990E /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		BAE27BC52691DBD10033990E /* MovieDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieDetailViewController.xib; sourceTree = "<group>"; };
+		BAE27BCC2691DF210033990E /* PopularMovieListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieListModel.swift; sourceTree = "<group>"; };
+		BAE27BCE2691DF360033990E /* UpcomingMovieListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingMovieListModel.swift; sourceTree = "<group>"; };
+		BAE27BD02691DF400033990E /* MovieDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailModel.swift; sourceTree = "<group>"; };
+		BAE27BD42691F08E0033990E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BAE27C0826920A390033990E /* MovieThumbnailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieThumbnailViewModel.swift; sourceTree = "<group>"; };
+		BAE27C0A26920AB20033990E /* DashboardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardTableViewCell.xib; sourceTree = "<group>"; };
+		BAE27C0F26920AB20033990E /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		BAE27C1626920AD40033990E /* MovieThumbnailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieThumbnailCollectionViewCell.swift; sourceTree = "<group>"; };
+		BAE27C1726920AD40033990E /* MovieThumbnailCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieThumbnailCollectionViewCell.xib; sourceTree = "<group>"; };
+		BAE27C1A26920CF60033990E /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE27BA72691DB310033990E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4439088EC617F1D1D4C92EC7 /* Pods_NontonApaHariIni.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAE27BA12691DB310033990E = {
+			isa = PBXGroup;
+			children = (
+				BAE27BAC2691DB310033990E /* NontonApaHariIni */,
+				BAE27BAB2691DB310033990E /* Products */,
+				E7AE6D56AFD96FC991585D1C /* Pods */,
+				D58EA4465E5859B31E5F8A31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE27BAB2691DB310033990E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE27BAA2691DB310033990E /* NontonApaHariIni.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAE27BAC2691DB310033990E /* NontonApaHariIni */ = {
+			isa = PBXGroup;
+			children = (
+				BAE27BAD2691DB310033990E /* AppDelegate.swift */,
+				BAE27BAF2691DB310033990E /* SceneDelegate.swift */,
+				BAE27BD22691F0750033990E /* Helpers */,
+				BAE27BC22691DBA90033990E /* Model */,
+				BAE27BC12691DB960033990E /* View */,
+				BAE27BB32691DB310033990E /* Main.storyboard */,
+				BAE27BB62691DB370033990E /* Assets.xcassets */,
+				BAE27BB82691DB370033990E /* LaunchScreen.storyboard */,
+				BAE27BBB2691DB370033990E /* Info.plist */,
+			);
+			path = NontonApaHariIni;
+			sourceTree = "<group>";
+		};
+		BAE27BC12691DB960033990E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BAE27BD62691F5A80033990E /* Dashboard */,
+				BAE27BC32691DBB80033990E /* MovieDetail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAE27BC22691DBA90033990E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BAE27BCC2691DF210033990E /* PopularMovieListModel.swift */,
+				BAE27BCE2691DF360033990E /* UpcomingMovieListModel.swift */,
+				BAE27BD02691DF400033990E /* MovieDetailModel.swift */,
+				BAE27C0826920A390033990E /* MovieThumbnailViewModel.swift */,
+				BA866D402693218700B484F1 /* NowPlayingMovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAE27BC32691DBB80033990E /* MovieDetail */ = {
+			isa = PBXGroup;
+			children = (
+				BAE27BC42691DBD10033990E /* MovieDetailViewController.swift */,
+				BAE27BC52691DBD10033990E /* MovieDetailViewController.xib */,
+			);
+			path = MovieDetail;
+			sourceTree = "<group>";
+		};
+		BAE27BD22691F0750033990E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BAE27BD42691F08E0033990E /* Constants.swift */,
+				BAE27C1A26920CF60033990E /* Networking.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BAE27BD62691F5A80033990E /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				BAE27BD72691F5BE0033990E /* Cell */,
+				BAE27BB12691DB310033990E /* DashboardViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		BAE27BD72691F5BE0033990E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BAE27C0F26920AB20033990E /* DashboardTableViewCell.swift */,
+				BAE27C0A26920AB20033990E /* DashboardTableViewCell.xib */,
+				BAE27C1626920AD40033990E /* MovieThumbnailCollectionViewCell.swift */,
+				BAE27C1726920AD40033990E /* MovieThumbnailCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D58EA4465E5859B31E5F8A31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				031487825BF1EEB531DCB978 /* Pods_NontonApaHariIni.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7AE6D56AFD96FC991585D1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89295C50A3823E4AC374886E /* Pods-NontonApaHariIni.debug.xcconfig */,
+				67175F6B9173F423D1C2D540 /* Pods-NontonApaHariIni.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE27BA92691DB310033990E /* NontonApaHariIni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE27BBE2691DB370033990E /* Build configuration list for PBXNativeTarget "NontonApaHariIni" */;
+			buildPhases = (
+				DBCC81E468221F418F08A7FF /* [CP] Check Pods Manifest.lock */,
+				BAE27BA62691DB310033990E /* Sources */,
+				BAE27BA72691DB310033990E /* Frameworks */,
+				BAE27BA82691DB310033990E /* Resources */,
+				1D7D48EAC86FEDEA5F75E149 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NontonApaHariIni;
+			productName = NontonApaHariIni;
+			productReference = BAE27BAA2691DB310033990E /* NontonApaHariIni.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE27BA22691DB310033990E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BAE27BA92691DB310033990E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = BAE27BA52691DB310033990E /* Build configuration list for PBXProject "NontonApaHariIni" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAE27BA12691DB310033990E;
+			productRefGroup = BAE27BAB2691DB310033990E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE27BA92691DB310033990E /* NontonApaHariIni */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE27BA82691DB310033990E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE27C1926920AD40033990E /* MovieThumbnailCollectionViewCell.xib in Resources */,
+				BAE27C1026920AB20033990E /* DashboardTableViewCell.xib in Resources */,
+				BAE27BC72691DBD10033990E /* MovieDetailViewController.xib in Resources */,
+				BAE27BBA2691DB370033990E /* LaunchScreen.storyboard in Resources */,
+				BAE27BB72691DB370033990E /* Assets.xcassets in Resources */,
+				BAE27BB52691DB310033990E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D7D48EAC86FEDEA5F75E149 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NontonApaHariIni/Pods-NontonApaHariIni-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NontonApaHariIni/Pods-NontonApaHariIni-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NontonApaHariIni/Pods-NontonApaHariIni-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBCC81E468221F418F08A7FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NontonApaHariIni-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE27BA62691DB310033990E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE27BCF2691DF360033990E /* UpcomingMovieListModel.swift in Sources */,
+				BAE27BC62691DBD10033990E /* MovieDetailViewController.swift in Sources */,
+				BAE27C1826920AD40033990E /* MovieThumbnailCollectionViewCell.swift in Sources */,
+				BAE27C1B26920CF60033990E /* Networking.swift in Sources */,
+				BAE27BCD2691DF210033990E /* PopularMovieListModel.swift in Sources */,
+				BAE27C0926920A390033990E /* MovieThumbnailViewModel.swift in Sources */,
+				BAE27BB22691DB310033990E /* DashboardViewController.swift in Sources */,
+				BAE27C1526920AB20033990E /* DashboardTableViewCell.swift in Sources */,
+				BAE27BAE2691DB310033990E /* AppDelegate.swift in Sources */,
+				BAE27BB02691DB310033990E /* SceneDelegate.swift in Sources */,
+				BAE27BD12691DF400033990E /* MovieDetailModel.swift in Sources */,
+				BAE27BD52691F08E0033990E /* Constants.swift in Sources */,
+				BA866D412693218700B484F1 /* NowPlayingMovieModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAE27BB32691DB310033990E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE27BB42691DB310033990E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAE27BB82691DB370033990E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE27BB92691DB370033990E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAE27BBC2691DB370033990E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAE27BBD2691DB370033990E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE27BBF2691DB370033990E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89295C50A3823E4AC374886E /* Pods-NontonApaHariIni.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32X45S4RAU;
+				INFOPLIST_FILE = NontonApaHariIni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gilangsinawang.NontonApaHariIni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAE27BC02691DB370033990E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67175F6B9173F423D1C2D540 /* Pods-NontonApaHariIni.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32X45S4RAU;
+				INFOPLIST_FILE = NontonApaHariIni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gilangsinawang.NontonApaHariIni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE27BA52691DB310033990E /* Build configuration list for PBXProject "NontonApaHariIni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE27BBC2691DB370033990E /* Debug */,
+				BAE27BBD2691DB370033990E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE27BBE2691DB370033990E /* Build configuration list for PBXNativeTarget "NontonApaHariIni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE27BBF2691DB370033990E /* Debug */,
+				BAE27BC02691DB370033990E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAE27BA22691DB310033990E /* Project object */;
+}
